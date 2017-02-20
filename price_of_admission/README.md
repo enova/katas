@@ -1,0 +1,7 @@
+# Price of Admission
+
+As Sri told us in his last [tech talk](http://postgresopen.org/events/schedule/pgopen2015/session/110-postgresql-in-paxosland-distributed-storage-and-strict-consistency/)—which was I believe in anticipation of a talk at [PGOpen](http://postgresopen.org/events/schedule/pgopen2015/)—there is a theorem, so called [CAP](https://en.wikipedia.org/wiki/CAP_theorem), that we can never have all three of the following: consistency, availability, and partition tolerance. Without going into great detail, one thing that stuck with me is that a common and often pronounced cost of maintaining consistency is speed. This reminded me of one of my college hijinks that I will now relate in brief.
+
+A friend invited me to attend an event held exclusively for fourth year students at the University of Chicago. Being that I was only a second year, I pointed out that this would be problematic. He suggested I use an old ID that he had as a means of entering. This shouldn't have worked! But it did, because there were three people checking IDs at the door. As we approached at the same time, two different people took our two different IDs and marked us off of two different lists.
+
+So, the challenge I pose to you: improve their system to maintain consistency while sacrificing as little efficiency as possible ... the objective is to keep me out of the party without slowing down the line. Keep in mind that this was the stone age & we only had pen & paper, so any enhancements to their procedure will need to be analog in nature.
